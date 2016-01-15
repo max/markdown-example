@@ -9,5 +9,8 @@
 import UIKit
 
 final class MarkdownTextStorage: BaseTextStorage {
-	
+	override func processEditing() {
+		super.processEditing()
+		print(string)
+	}
 }

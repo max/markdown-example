@@ -13,7 +13,13 @@ class TextEditorViewController: UIViewController {
 	// MARK: - Properties
 
 	let textView: UITextView = {
-		let view = UITextView()
+		let textStorage = MarkdownTextStorage()
+		let layoutManager = NSLayoutManager()
+		let textContainer = NSTextContainer()
+		layoutManager.addTextContainer(textContainer)
+		textStorage.addLayoutManager(layoutManager)
+
+  		let view = UITextView(frame: .zero, textContainer: textContainer)
 		view.translatesAutoresizingMaskIntoConstraints = false
 		view.font = UIFont.systemFontOfSize(16)
 		return view

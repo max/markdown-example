@@ -24,7 +24,7 @@ class BaseTextStorage: NSTextStorage {
 		let beforeLength = (string as NSString).length
 		storage.replaceCharactersInRange(range, withAttributedString: attrString)
 		let afterLength = (string as NSString).length
-		edited(.EditedCharacters, range: range, changeInLength: beforeLength - afterLength)
+		edited(.EditedCharacters, range: range, changeInLength: afterLength - beforeLength)
 	}
 
 	override func setAttributes(attrs: [String : AnyObject]?, range: NSRange) {
