@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5077CF961C4982630090F808 /* BaseTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077CF951C4982630090F808 /* BaseTextStorage.swift */; };
+		5077CF981C49874E0090F808 /* MarkdownTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5077CF971C49874E0090F808 /* MarkdownTextStorage.swift */; };
 		50995CBC1C497999006A0321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995CBB1C497999006A0321 /* AppDelegate.swift */; };
 		50995CBE1C497999006A0321 /* TextEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50995CBD1C497999006A0321 /* TextEditorViewController.swift */; };
 		50995CC31C497999006A0321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50995CC21C497999006A0321 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5077CF951C4982630090F808 /* BaseTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextStorage.swift; sourceTree = "<group>"; };
+		5077CF971C49874E0090F808 /* MarkdownTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownTextStorage.swift; sourceTree = "<group>"; };
 		50995CB81C497999006A0321 /* MarkdownExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkdownExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50995CBB1C497999006A0321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50995CBD1C497999006A0321 /* TextEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			children = (
 				50995CBB1C497999006A0321 /* AppDelegate.swift */,
 				50995CBD1C497999006A0321 /* TextEditorViewController.swift */,
+				5077CF951C4982630090F808 /* BaseTextStorage.swift */,
+				5077CF971C49874E0090F808 /* MarkdownTextStorage.swift */,
 				50995CC21C497999006A0321 /* Assets.xcassets */,
 				50995CC41C497999006A0321 /* LaunchScreen.storyboard */,
 				50995CC71C497999006A0321 /* Info.plist */,
@@ -194,6 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				50995CBE1C497999006A0321 /* TextEditorViewController.swift in Sources */,
+				5077CF981C49874E0090F808 /* MarkdownTextStorage.swift in Sources */,
+				5077CF961C4982630090F808 /* BaseTextStorage.swift in Sources */,
 				50995CBC1C497999006A0321 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +384,7 @@
 				50995CD71C49799A006A0321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50995CD81C49799A006A0321 /* Build configuration list for PBXNativeTarget "MarkdownExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +393,7 @@
 				50995CDA1C49799A006A0321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
